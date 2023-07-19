@@ -11,11 +11,6 @@ const TextBox = (props) => {
     setCopyPassWord(false);
   }, [value]);
 
-  // useEffect(() => {
-  //   if (password) {
-  //   }
-  // }, [password]);
-
   return (
     <>
       <div className="input-group mb-3">
